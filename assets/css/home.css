@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+#page-heading
+{
+    text-align:center;
+    margin-top:25px;
+    color:grey;
+}
+
+#contact-div
+{
+     width:60%;
+    height:auto;
+    margin:25px auto;
+}
+
+
+.flex-div
+{
+    width:50%;
+    height:1.4rem;
+    background-color:blue;
+    color:White;
+    margin:3px auto;
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+
+.flex-div:hover{
+    background-color: slategrey;
+}
+
+.flex-div a{
+    background-color:white;
+    color:red;
+    padding:2px;
+    margin:2px;
+}
+
+ul{
+    list-style: none;
+}
+
+form{
+    width:52%;
+    margin:2px auto;
+    padding:5px;
+    padding-left:75px;
+}
+
+input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden;
+    border-bottom-style: groove;
+    width:40%;
+}
+
+button{
+    background-color:black;
+    color:white;
+}
